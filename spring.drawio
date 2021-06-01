@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T06:32:52.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="kKsmmsUKpWTSmNcsmvdO" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-01T06:33:11.608Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="qky86MM9YWXYmWz52g6p" version="14.7.3" type="github" pages="3">
   <diagram id="S7iFQqADGbCx8YZnIeWo" name="bean生命周期">
     <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -291,9 +291,6 @@
         <mxCell id="qB8ABwM966sBJS37eOmT-11" value="继承FactoryBean" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="qB8ABwM966sBJS37eOmT-1">
           <mxGeometry x="360" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qB8ABwM966sBJS37eOmT-14" value="自动装配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qB8ABwM966sBJS37eOmT-1">
-          <mxGeometry x="40" y="890" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="qB8ABwM966sBJS37eOmT-15" value="继承 ImportSelector&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="qB8ABwM966sBJS37eOmT-1">
           <mxGeometry x="360" y="560" width="120" height="60" as="geometry" />
         </mxCell>
@@ -321,6 +318,14 @@
         <mxCell id="qB8ABwM966sBJS37eOmT-25" value="@Profile" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="qB8ABwM966sBJS37eOmT-1">
           <mxGeometry x="720" y="260" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VmPu2iOSHRxUapZDA2ba" name="自动装配">
+    <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="5xbX5SnDOifk1vIii-4b-0" />
+        <mxCell id="5xbX5SnDOifk1vIii-4b-1" parent="5xbX5SnDOifk1vIii-4b-0" />
       </root>
     </mxGraphModel>
   </diagram>
