@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T06:33:11.608Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="qky86MM9YWXYmWz52g6p" version="14.7.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-01T06:37:42.058Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6Fw3UdS0iU1e1aJW6n6D" version="14.7.3" type="github" pages="3">
   <diagram id="S7iFQqADGbCx8YZnIeWo" name="bean生命周期">
     <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -326,6 +326,33 @@
       <root>
         <mxCell id="5xbX5SnDOifk1vIii-4b-0" />
         <mxCell id="5xbX5SnDOifk1vIii-4b-1" parent="5xbX5SnDOifk1vIii-4b-0" />
+        <mxCell id="5xbX5SnDOifk1vIii-4b-4" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5xbX5SnDOifk1vIii-4b-1" source="5xbX5SnDOifk1vIii-4b-2" target="5xbX5SnDOifk1vIii-4b-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbX5SnDOifk1vIii-4b-2" value="自动装配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5xbX5SnDOifk1vIii-4b-1">
+          <mxGeometry x="350" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbX5SnDOifk1vIii-4b-6" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="5xbX5SnDOifk1vIii-4b-1" source="5xbX5SnDOifk1vIii-4b-3" target="5xbX5SnDOifk1vIii-4b-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbX5SnDOifk1vIii-4b-14" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5xbX5SnDOifk1vIii-4b-1" source="5xbX5SnDOifk1vIii-4b-2" target="5xbX5SnDOifk1vIii-4b-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbX5SnDOifk1vIii-4b-3" value="@EnableXXX" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="5xbX5SnDOifk1vIii-4b-1">
+          <mxGeometry x="560" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbX5SnDOifk1vIii-4b-5" value="@Import" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="5xbX5SnDOifk1vIii-4b-1">
+          <mxGeometry x="880" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbX5SnDOifk1vIii-4b-7" value="META-INF/pring.factories&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="5xbX5SnDOifk1vIii-4b-1">
+          <mxGeometry x="891" y="460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbX5SnDOifk1vIii-4b-13" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="5xbX5SnDOifk1vIii-4b-1" source="5xbX5SnDOifk1vIii-4b-11" target="5xbX5SnDOifk1vIii-4b-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xbX5SnDOifk1vIii-4b-11" value="&lt;span style=&quot;color: rgb(65 , 74 , 81) ; font-family: &amp;#34;inconsolata&amp;#34; , monospace ; font-size: 15px ; font-style: italic ; text-align: left ; background-color: rgb(251 , 251 , 251)&quot;&gt;@EnableAutoConfiguration&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="5xbX5SnDOifk1vIii-4b-1">
+          <mxGeometry x="560" y="460" width="250" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
