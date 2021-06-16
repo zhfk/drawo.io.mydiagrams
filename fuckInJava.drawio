@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T03:33:28.046Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="pAPW-Hwppgw0_BAc_jIG" version="14.7.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-06-16T03:51:52.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="N7zZy5MGgFaaLSXNYIsF" version="14.7.3" type="github" pages="6">
   <diagram id="p9fW9EU6NrqQkCEAsCpv" name="HashMap特性">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="EeXHLTtBkfIOa3GdazBh-0" />
         <mxCell id="EeXHLTtBkfIOa3GdazBh-1" parent="EeXHLTtBkfIOa3GdazBh-0" />
+        <mxCell id="EeXHLTtBkfIOa3GdazBh-4" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EeXHLTtBkfIOa3GdazBh-1" source="EeXHLTtBkfIOa3GdazBh-2" target="EeXHLTtBkfIOa3GdazBh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EeXHLTtBkfIOa3GdazBh-6" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EeXHLTtBkfIOa3GdazBh-1" source="EeXHLTtBkfIOa3GdazBh-2" target="EeXHLTtBkfIOa3GdazBh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EeXHLTtBkfIOa3GdazBh-2" value="HashMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EeXHLTtBkfIOa3GdazBh-1">
+          <mxGeometry x="80" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EeXHLTtBkfIOa3GdazBh-3" value="允许key 为 null &amp;amp; 允许value 为null" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EeXHLTtBkfIOa3GdazBh-1">
+          <mxGeometry x="280" y="140" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EeXHLTtBkfIOa3GdazBh-8" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EeXHLTtBkfIOa3GdazBh-1" source="EeXHLTtBkfIOa3GdazBh-5" target="EeXHLTtBkfIOa3GdazBh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EeXHLTtBkfIOa3GdazBh-5" value="影响性能的参数：capacity &amp;amp; load factor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EeXHLTtBkfIOa3GdazBh-1">
+          <mxGeometry x="280" y="210" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EeXHLTtBkfIOa3GdazBh-10" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EeXHLTtBkfIOa3GdazBh-1" source="EeXHLTtBkfIOa3GdazBh-7" target="EeXHLTtBkfIOa3GdazBh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EeXHLTtBkfIOa3GdazBh-7" value="load factor：0.75 能够很好的平衡时间和空间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EeXHLTtBkfIOa3GdazBh-1">
+          <mxGeometry x="620" y="135" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EeXHLTtBkfIOa3GdazBh-9" value="&amp;nbsp;&amp;gt; 0.75 减少了空间消耗，但是增加了元素访问时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EeXHLTtBkfIOa3GdazBh-1">
+          <mxGeometry x="810" y="135" width="140" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
