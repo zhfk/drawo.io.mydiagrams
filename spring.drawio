@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T10:05:09.245Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="PbebBOli9kIIWTZWACWJ" version="14.7.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-16T11:05:54.769Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="BQTCrB_mpFSitk8RL2Nu" version="14.7.9" type="github" pages="5">
   <diagram id="K8SGduRu8q9ySeJu_fzj" name="Spring">
-    <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="1831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IUudcjfeSw5pYNGF90S7-0" />
         <mxCell id="IUudcjfeSw5pYNGF90S7-1" parent="IUudcjfeSw5pYNGF90S7-0" />
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#1A1A1A;strokeWidth=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--30" target="Tmd9GVkqugwMTnA3I-ue-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--30" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
+          <mxGeometry x="550" y="-420" width="830" height="340" as="geometry" />
+        </mxCell>
         <mxCell id="Tmd9GVkqugwMTnA3I-ue-9" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="Tmd9GVkqugwMTnA3I-ue-0" target="Tmd9GVkqugwMTnA3I-ue-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -21,38 +27,17 @@
         <mxCell id="Tmd9GVkqugwMTnA3I-ue-4" value="XML" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
           <mxGeometry x="80" y="160" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tmd9GVkqugwMTnA3I-ue-12" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="Tmd9GVkqugwMTnA3I-ue-8" target="Tmd9GVkqugwMTnA3I-ue-11">
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1A1A1A;strokeWidth=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="Tmd9GVkqugwMTnA3I-ue-8" target="MZPZkcBh7F0HJ4gKhi7--0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MZPZkcBh7F0HJ4gKhi7--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fontColor=#1A1A1A;strokeWidth=2;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="Tmd9GVkqugwMTnA3I-ue-8" target="MZPZkcBh7F0HJ4gKhi7--8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Tmd9GVkqugwMTnA3I-ue-8" value="BeanDefinitionRegistry&lt;br&gt;注册" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
+        <mxCell id="Tmd9GVkqugwMTnA3I-ue-8" value="refresh" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
           <mxGeometry x="350" y="110" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MZPZkcBh7F0HJ4gKhi7--1" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="Tmd9GVkqugwMTnA3I-ue-11" target="MZPZkcBh7F0HJ4gKhi7--0">
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#1A1A1A;strokeWidth=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--0" target="MZPZkcBh7F0HJ4gKhi7--39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MZPZkcBh7F0HJ4gKhi7--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fontColor=#1A1A1A;strokeWidth=2;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="Tmd9GVkqugwMTnA3I-ue-11" target="MZPZkcBh7F0HJ4gKhi7--10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1110" y="-60" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="670" y="20" />
-              <mxPoint x="1200" y="20" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Tmd9GVkqugwMTnA3I-ue-11" value="BeanDefinition&lt;br&gt;bean定义" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
-          <mxGeometry x="590" y="110" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MZPZkcBh7F0HJ4gKhi7--3" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--0" target="MZPZkcBh7F0HJ4gKhi7--2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MZPZkcBh7F0HJ4gKhi7--0" value="BeanFactory&lt;br&gt;bean工厂" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
-          <mxGeometry x="830" y="110" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MZPZkcBh7F0HJ4gKhi7--2" value="Bean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
-          <mxGeometry x="1070" y="110" width="160" height="60" as="geometry" />
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--0" value="InvokeBeanFactoryPostProcessors()&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
+          <mxGeometry x="550" y="110" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZPZkcBh7F0HJ4gKhi7--9" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--4" target="MZPZkcBh7F0HJ4gKhi7--8">
           <mxGeometry relative="1" as="geometry" />
@@ -82,35 +67,68 @@
           <mxGeometry x="580" y="-170" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZPZkcBh7F0HJ4gKhi7--10" value="&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;beanDefinitionMap&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;put(beanName, BeanDefinition)&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
-          <mxGeometry x="1075" y="-170" width="250" height="60" as="geometry" />
+          <mxGeometry x="1055" y="-170" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MZPZkcBh7F0HJ4gKhi7--21" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1A1A1A;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--19" target="MZPZkcBh7F0HJ4gKhi7--20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="MZPZkcBh7F0HJ4gKhi7--23" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1A1A1A;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--19" target="MZPZkcBh7F0HJ4gKhi7--22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MZPZkcBh7F0HJ4gKhi7--19" value="&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;color: rgb(26 , 26 , 26) ; font-size: 9pt ; font-family: &amp;#34;monaco&amp;#34; , monospace&quot;&gt;registerAnnotationConfigProcessors&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
           <mxGeometry x="580" y="-340" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MZPZkcBh7F0HJ4gKhi7--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#1A1A1A;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--20" target="MZPZkcBh7F0HJ4gKhi7--10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1410" y="-460" />
-              <mxPoint x="1410" y="-140" />
-            </Array>
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#1A1A1A;strokeWidth=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--20" target="MZPZkcBh7F0HJ4gKhi7--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--20" value="&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;monaco&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ConfigurationClassPostProcessor&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;用来解析配置类&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
+          <mxGeometry x="1020" y="-340" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--31" value="注册解析配置的 Processor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
+          <mxGeometry x="580" y="-420" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1A1A1A;strokeWidth=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--39" target="MZPZkcBh7F0HJ4gKhi7--41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#1A1A1A;strokeWidth=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--39" target="MZPZkcBh7F0HJ4gKhi7--43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--39" value="&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-style: italic ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;BeanDefinitionRegistryPostProcessors&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;i&gt;注册bean定义&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
+          <mxGeometry x="520" y="230" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9dumYrveI6_HewC7PkcE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1A1A1A;strokeWidth=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--41" target="9dumYrveI6_HewC7PkcE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dumYrveI6_HewC7PkcE-12" value="可修改" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;" vertex="1" connectable="0" parent="9dumYrveI6_HewC7PkcE-10">
+          <mxGeometry x="-0.168" y="4" relative="1" as="geometry">
+            <mxPoint y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MZPZkcBh7F0HJ4gKhi7--20" value="&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;monaco&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;internalConfigurationAnnotationProcessor&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;用来解析配置类&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
-          <mxGeometry x="1040" y="-490" width="320" height="60" as="geometry" />
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--41" value="&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-style: italic ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;BeanFactoryPostProcessor&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-style: italic ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;修改bean定义&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
+          <mxGeometry x="565" y="360" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MZPZkcBh7F0HJ4gKhi7--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#1A1A1A;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--22">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1410" y="-310" as="targetPoint" />
+        <mxCell id="9dumYrveI6_HewC7PkcE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#1A1A1A;strokeWidth=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="MZPZkcBh7F0HJ4gKhi7--43" target="9dumYrveI6_HewC7PkcE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MZPZkcBh7F0HJ4gKhi7--43" value="&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ConfigurationClassPostProcessor&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;调用&lt;/font&gt;processConfigBeanDefinitions用于处理Bean定义&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
+          <mxGeometry x="900" y="230" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9dumYrveI6_HewC7PkcE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#1A1A1A;strokeWidth=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="9dumYrveI6_HewC7PkcE-0" target="9dumYrveI6_HewC7PkcE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dumYrveI6_HewC7PkcE-11" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;" vertex="1" connectable="0" parent="9dumYrveI6_HewC7PkcE-9">
+          <mxGeometry x="-0.0326" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MZPZkcBh7F0HJ4gKhi7--22" value="&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;monaco&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;internalAutowiredAnnotationProcessor&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;其他...&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
-          <mxGeometry x="1040" y="-340" width="320" height="60" as="geometry" />
+        <mxCell id="9dumYrveI6_HewC7PkcE-0" value="&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ConfigurationClassBeanDefinitionReader&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;调用&lt;/span&gt;&lt;/font&gt;loadBeanDefinitions注册Bean定义&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
+          <mxGeometry x="1334" y="355" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9dumYrveI6_HewC7PkcE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#1A1A1A;strokeWidth=1;" edge="1" parent="IUudcjfeSw5pYNGF90S7-1" source="9dumYrveI6_HewC7PkcE-2" target="9dumYrveI6_HewC7PkcE-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9dumYrveI6_HewC7PkcE-2" value="&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;monaco&amp;#34; , monospace&quot;&gt;ConfigurationClassParser&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt ; font-family: &amp;#34;monaco&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(26 , 26 , 26) ; font-size: 9pt&quot;&gt;调用parse解析ConfigClass&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
+          <mxGeometry x="1334" y="225" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9dumYrveI6_HewC7PkcE-7" value="&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;beanDefinitionMap&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;monaco&amp;#34; , monospace ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#1a1a1a&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;put(beanName, BeanDefinition)&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IUudcjfeSw5pYNGF90S7-1">
+          <mxGeometry x="945" y="360" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
