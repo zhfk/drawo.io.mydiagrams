@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T07:22:26.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="55po8Ue9b5tW7rsk3S3R" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T07:24:55.420Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Aw5XRaVYIQhTMNzGJQc6" version="14.8.1" type="github">
   <diagram id="fgFn3dPt73MYGTA3JO_e" name="Page-1">
     <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -245,10 +245,10 @@
           <mxGeometry x="544.5" y="585" width="44.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-74" value="1、相同数据只加工一次" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="595" y="585" width="140" height="20" as="geometry" />
+          <mxGeometry x="592" y="585" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-76" value="2、数据复用，数据共享" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="597" y="630" width="140" height="20" as="geometry" />
+          <mxGeometry x="593" y="630" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-78" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="233" y="675" width="53" height="70" as="geometry" />
@@ -266,10 +266,10 @@
           <mxGeometry x="544.5" y="682.5" width="44.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-83" value="1、构建全局资产目录，数据地图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="601" y="682.5" width="190" height="20" as="geometry" />
+          <mxGeometry x="593" y="682.5" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-84" value="2、可视化查询平台、参数化取数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="601" y="720" width="190" height="20" as="geometry" />
+          <mxGeometry x="593" y="725" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-85" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="227" y="765" width="53" height="70" as="geometry" />
@@ -287,22 +287,13 @@
           <mxGeometry x="440" y="779" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-90" value="1、及时发现后快速恢复数据问题&lt;br&gt;（没有具体方案，说了等于没说)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="587" y="761.5" width="190" height="30" as="geometry" />
+          <mxGeometry x="592" y="766" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-91" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="262" y="885" width="53" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-92" value="1、数据重复建设" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="309" y="880" width="110" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZgDPxjDo1qlyhEOBNAD5-94" target="ZgDPxjDo1qlyhEOBNAD5-74">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="620" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="810" y="923" />
-              <mxPoint x="810" y="595" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-94" value="解决" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;strokeColor=#FF3333;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="440" y="900" width="100" height="45" as="geometry" />
@@ -311,7 +302,13 @@
           <mxGeometry x="544.5" y="770" width="44.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-98" value="2、全链路数据质量稽核监控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="587" y="791.5" width="170" height="20" as="geometry" />
+          <mxGeometry x="589" y="815" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-100" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="552.5" y="890" width="44.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-102" value="1、计算报表的ROI，价值低，及时下线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="594.5" y="885" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
