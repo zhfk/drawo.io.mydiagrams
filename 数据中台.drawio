@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T07:02:57.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="FU-KCyIwuaHhRkh-JHvE" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T07:07:27.299Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="NlIzbsEPBU514cyl4eTn" version="14.8.1" type="github">
   <diagram id="fgFn3dPt73MYGTA3JO_e" name="Page-1">
     <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -429,17 +429,45 @@
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-156" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="323" y="2320" width="30" height="220" as="geometry" />
         </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgDPxjDo1qlyhEOBNAD5-157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="578" y="2325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-157" value="屏蔽异构数据源" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
           <mxGeometry x="369" y="2310" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgDPxjDo1qlyhEOBNAD5-158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="579.5" y="2395" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-158" value="数据网关" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
           <mxGeometry x="370.5" y="2380" width="129" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgDPxjDo1qlyhEOBNAD5-160" target="ZgDPxjDo1qlyhEOBNAD5-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-160" value="逻辑模型" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
           <mxGeometry x="370.5" y="2450" width="129" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgDPxjDo1qlyhEOBNAD5-162" target="ZgDPxjDo1qlyhEOBNAD5-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-162" value="性能和稳定性" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
           <mxGeometry x="370.5" y="2520" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-166" value="Mysql、Hbase、Greenplum、redis、ES" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=1;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="579" y="2310" width="241" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-169" value="权限、监控、流控、日志、&lt;br&gt;accessKey、secretKey" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=1;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="579" y="2375" width="241" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-170" value="屏蔽底层模型物理设计实现" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=1;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="579.5" y="2450" width="220.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-172" value="可用性&amp;amp;性能&amp;amp;无状态&amp;amp;横向扩展" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=1;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="579.5" y="2520" width="220.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
