@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-07-16T06:43:57.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="43aw2sUz-bQTn3BYoSOV" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-16T06:57:54.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="0s5k3HT3nFlmFaVT9WGL" version="14.8.1" type="github">
   <diagram id="fgFn3dPt73MYGTA3JO_e" name="Page-1">
     <mxGraphModel dx="1426" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-152" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;gradientColor=none;dashed=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="188" y="1620" width="400" height="300" as="geometry" />
+        </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-112" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;strokeWidth=1;gradientColor=none;fillColor=#D5E8D4;opacity=20;dashed=1;perimeterSpacing=0;" vertex="1" parent="1">
           <mxGeometry x="3" y="430" width="817" height="550" as="geometry" />
         </mxCell>
@@ -346,35 +349,79 @@
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-114" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;i&gt;03、关键抉择：数据中台建设三板斧：方法论、组织、技术&lt;/i&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=50;fillColor=#FF3333;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="4" y="1520" width="820" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-118" value="数据中台核心方法论" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="7" y="1930" width="139" height="40" as="geometry" />
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-118" value="数据中台核心方法论" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="8" y="2250" width="139" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-119" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="155.5" y="1775" width="20" height="350" as="geometry" />
+          <mxGeometry x="156.5" y="2095" width="20" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-120" value="OneData&lt;br&gt;&lt;font color=&quot;#333333&quot; face=&quot;pingfang sc, lantinghei sc, microsoft yahei, hiragino sans gb, microsoft sans serif, wenquanyi micro hei, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;所有的数据只加工一次&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="178" y="1775" width="140" height="30" as="geometry" />
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-120" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;OneData&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#333333&quot; face=&quot;pingfang sc, lantinghei sc, microsoft yahei, hiragino sans gb, microsoft sans serif, wenquanyi micro hei, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;所有的数据只加工一次&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="179" y="2090" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-121" value="OneService" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190.5" y="2100" width="80" height="20" as="geometry" />
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-121" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;OneService&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="176.5" y="2420" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZgDPxjDo1qlyhEOBNAD5-124" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="318" y="1660" width="32.5" height="260" as="geometry" />
+          <mxGeometry x="319" y="1980" width="32.5" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-125" value="分主题域管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="371" y="1640" width="129" height="30" as="geometry" />
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgDPxjDo1qlyhEOBNAD5-125" target="ZgDPxjDo1qlyhEOBNAD5-134">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-126" value="命名规范定义" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370.5" y="1710" width="129" height="30" as="geometry" />
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-136" value="主题域" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZgDPxjDo1qlyhEOBNAD5-135">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-128" value="指标一致" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370.5" y="1775" width="129" height="30" as="geometry" />
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-125" value="分主题域管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="372" y="1960" width="129" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-130" value="数据模型复用" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="371" y="1840" width="129" height="30" as="geometry" />
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZgDPxjDo1qlyhEOBNAD5-126" target="ZgDPxjDo1qlyhEOBNAD5-137">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-132" value="数据完善" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370.5" y="1910" width="129" height="30" as="geometry" />
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-126" value="命名规范定义" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="371.5" y="2030" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-128" value="指标一致" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="371.5" y="2095" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-130" value="数据模型复用" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="372" y="2160" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-132" value="数据完善" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
+          <mxGeometry x="371.5" y="2230" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-134" value="商品、交易、流量、用户、售后等" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#10739e;strokeWidth=1;fillColor=#b1ddf0;" vertex="1" parent="1">
+          <mxGeometry x="581" y="1960" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-137" value="dwd_wms_inbound_item_info_di&lt;br&gt;分层_主题域_业务过程_内容_分区规则" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#10739e;strokeWidth=1;fillColor=#b1ddf0;" vertex="1" parent="1">
+          <mxGeometry x="581" y="2025" width="230.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-139" value="ADS(数据应用层)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="238" y="1680" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-140" value="DM(数据集市层)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;strokeWidth=1;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1680" width="147" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-142" value="DWS(轻度汇总数据层)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="238" y="1744" width="319.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-143" value="DWD(明细数据层)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="238" y="1804" width="319.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-145" value="ODS(原始数据层)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B09500;strokeWidth=1;fillColor=#e3c800;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="238.25" y="1870" width="319.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-147" value="商&lt;br&gt;品&lt;br&gt;域" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;strokeWidth=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="249" y="1730" width="31" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-148" value="用&lt;br&gt;户&lt;br&gt;域" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;strokeWidth=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="288" y="1730" width="31" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-150" value="交&lt;br&gt;易&lt;br&gt;域" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;strokeWidth=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="513" y="1730" width="31" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgDPxjDo1qlyhEOBNAD5-153" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;i&gt;数据分层&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1620" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
