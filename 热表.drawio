@@ -1,37 +1,58 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2">
   <diagram name="第 1 页" id="UXNwemoa6bD-jJilbAEa">
-    <mxGraphModel dx="1434" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="2107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0xX-rMRD4ER32TFLuuvr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0xX-rMRD4ER32TFLuuvr-1" target="0xX-rMRD4ER32TFLuuvr-2" edge="1">
+        <mxCell id="G3_xKyKHoGGo0sw8AMeO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xX-rMRD4ER32TFLuuvr-1" target="G3_xKyKHoGGo0sw8AMeO-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0xX-rMRD4ER32TFLuuvr-11" value="RS485" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0xX-rMRD4ER32TFLuuvr-3" vertex="1" connectable="0">
-          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+        <mxCell id="G3_xKyKHoGGo0sw8AMeO-7" value="modbus rtu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G3_xKyKHoGGo0sw8AMeO-4">
+          <mxGeometry x="-0.16" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G3_xKyKHoGGo0sw8AMeO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="0xX-rMRD4ER32TFLuuvr-1" target="0xX-rMRD4ER32TFLuuvr-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="0xX-rMRD4ER32TFLuuvr-1" value="热表" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="300" y="-600" width="50" height="50" as="geometry" />
+          <mxGeometry x="410" y="-750" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="G3_xKyKHoGGo0sw8AMeO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0xX-rMRD4ER32TFLuuvr-2" target="0xX-rMRD4ER32TFLuuvr-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="G3_xKyKHoGGo0sw8AMeO-10" value="modbus TCP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G3_xKyKHoGGo0sw8AMeO-1">
+          <mxGeometry x="-0.0914" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0xX-rMRD4ER32TFLuuvr-2" value="串口服务器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="263.75" y="-470" width="122.5" height="40" as="geometry" />
+          <mxGeometry x="240" y="-470" width="122.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0xX-rMRD4ER32TFLuuvr-4" value="交换机" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="-360" width="110" height="40" as="geometry" />
+          <mxGeometry x="510" y="-360" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0xX-rMRD4ER32TFLuuvr-6" value="触摸屏" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="-470" width="110" height="40" as="geometry" />
+          <mxGeometry x="510" y="-470" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0xX-rMRD4ER32TFLuuvr-8" value="光猫" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="-360" width="110" height="40" as="geometry" />
+          <mxGeometry x="246.25" y="-360" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G3_xKyKHoGGo0sw8AMeO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G3_xKyKHoGGo0sw8AMeO-3" target="0xX-rMRD4ER32TFLuuvr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3_xKyKHoGGo0sw8AMeO-8" value="modbus RTU" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G3_xKyKHoGGo0sw8AMeO-5">
+          <mxGeometry x="0.0597" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3_xKyKHoGGo0sw8AMeO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G3_xKyKHoGGo0sw8AMeO-3" target="0xX-rMRD4ER32TFLuuvr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G3_xKyKHoGGo0sw8AMeO-9" value="modbus RTU" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G3_xKyKHoGGo0sw8AMeO-6">
+          <mxGeometry x="-0.0226" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G3_xKyKHoGGo0sw8AMeO-3" value="485集线器(2主1从)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-610" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
