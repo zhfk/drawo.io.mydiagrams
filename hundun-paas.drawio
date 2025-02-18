@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.3">
   <diagram name="告警" id="GtPHsBBUX7Yxwo9CKAsK">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2514" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,16 +113,16 @@
           <mxGeometry x="1250" y="481.25" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-34" value="&lt;div&gt;保存告警历史log&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="670" width="120" height="45" as="geometry" />
+          <mxGeometry x="1250" y="720" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-36" value="&lt;div&gt;发布：&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;AlarmHistoryStateChangeEvent&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1175" y="770" width="270" height="50" as="geometry" />
+          <mxGeometry x="1175" y="845" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-39" target="ge6eiEdTAFL3hpT854fV-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-39" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;发布 ：&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;AlarmEndEvent&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="580" width="120" height="45" as="geometry" />
+          <mxGeometry x="1250" y="610" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-42" target="ge6eiEdTAFL3hpT854fV-45">
           <mxGeometry relative="1" as="geometry" />
@@ -146,10 +146,75 @@
           <mxGeometry x="711" y="850" width="162" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-50" value="发布：&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;AlarmStateChangeEvent&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="672.5" y="970" width="239" height="50" as="geometry" />
+          <mxGeometry x="672.5" y="1235" width="239" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ge6eiEdTAFL3hpT854fV-52" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;tryStartAlarm&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="35" y="760" width="220" height="50" as="geometry" />
+        <mxCell id="ge6eiEdTAFL3hpT854fV-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-52" target="ge6eiEdTAFL3hpT854fV-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-52" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;tryStartAlarm&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="72.5" y="750" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-54" target="ge6eiEdTAFL3hpT854fV-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-58" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ge6eiEdTAFL3hpT854fV-57">
+          <mxGeometry x="-0.025" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-54" target="ge6eiEdTAFL3hpT854fV-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-61" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ge6eiEdTAFL3hpT854fV-60">
+          <mxGeometry x="-0.1259" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-54" value="检查缓存中是否有告警历史？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="840" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-56" target="ge6eiEdTAFL3hpT854fV-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-65" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ge6eiEdTAFL3hpT854fV-64">
+          <mxGeometry x="-0.1583" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-56" target="ge6eiEdTAFL3hpT854fV-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-68" value="已恢复未确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ge6eiEdTAFL3hpT854fV-67">
+          <mxGeometry x="-0.14" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-56" value="未确认未恢复或已确认未恢复" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="950" width="103.75" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-59" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-63" value="添加告警历史点位明细" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455.63" y="970" width="164.38" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-66" target="ge6eiEdTAFL3hpT854fV-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-66" value="增加告警次数、保存告警历史" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.81" y="1100" width="108.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-69" target="ge6eiEdTAFL3hpT854fV-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-69" value="保存告警Log" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.81" y="1169" width="108.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-71" target="ge6eiEdTAFL3hpT854fV-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-71" value="更新告警缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.81" y="1240" width="108.13" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
