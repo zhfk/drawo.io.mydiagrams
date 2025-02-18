@@ -192,7 +192,7 @@
         <mxCell id="ge6eiEdTAFL3hpT854fV-56" value="未确认未恢复或已确认未恢复" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="950" width="103.75" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ge6eiEdTAFL3hpT854fV-63" value="添加告警历史点位明细" style="whiteSpace=wrap;html=1;glass=1;" vertex="1" parent="1">
+        <mxCell id="ge6eiEdTAFL3hpT854fV-63" value="添加告警历史点位明细" style="whiteSpace=wrap;html=1;glass=0;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="970" width="164.38" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-66" target="ge6eiEdTAFL3hpT854fV-69">
