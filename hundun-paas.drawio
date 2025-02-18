@@ -4,8 +4,146 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ge6eiEdTAFL3hpT854fV-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-1" target="ge6eiEdTAFL3hpT854fV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-5" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;span style=&quot;&quot;&gt;topic: formularedRealTime_v2&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="ge6eiEdTAFL3hpT854fV-4">
+          <mxGeometry x="-0.075" y="1" relative="1" as="geometry">
+            <mxPoint x="114" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-1" value="kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="190" width="140" height="30" as="geometry" />
+          <mxGeometry x="75" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-3" target="ge6eiEdTAFL3hpT854fV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-13" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;发布SubjectItemDealEvent&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="ge6eiEdTAFL3hpT854fV-12">
+          <mxGeometry x="-0.15" relative="1" as="geometry">
+            <mxPoint x="85" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-3" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;b style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font&gt;ItemValCustomer&lt;/font&gt;&lt;/b&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-6" target="ge6eiEdTAFL3hpT854fV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-10" value="从redis中获取点位告警规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ge6eiEdTAFL3hpT854fV-9">
+          <mxGeometry x="0.1368" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-6" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;b style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font&gt;redis&lt;/font&gt;&lt;/b&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="170" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-11" target="ge6eiEdTAFL3hpT854fV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-11" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;SubjectItemDealEventHandler&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5" y="340" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-14" target="ge6eiEdTAFL3hpT854fV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-19" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ge6eiEdTAFL3hpT854fV-18">
+          <mxGeometry x="-0.1701" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-14" target="ge6eiEdTAFL3hpT854fV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-23" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ge6eiEdTAFL3hpT854fV-22">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-14" value="根据规则校验是否生成告警" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="53.75" y="460" width="182.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-17" target="ge6eiEdTAFL3hpT854fV-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-17" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;AlarmHistoryEndEvent&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="482.5" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-20" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;发布：AlarmHistoryStartEvent&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="630" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-24" target="ge6eiEdTAFL3hpT854fV-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-24" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;tryStopAlarm&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="481.25" width="120" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-26" target="ge6eiEdTAFL3hpT854fV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-26" target="ge6eiEdTAFL3hpT854fV-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-44" value="未确认未恢复" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ge6eiEdTAFL3hpT854fV-43">
+          <mxGeometry x="-0.0667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-26" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="757" y="475" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-32" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-28" target="ge6eiEdTAFL3hpT854fV-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-34" target="ge6eiEdTAFL3hpT854fV-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-28" value="&lt;div&gt;保存告警历史状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="482.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-30" value="自动结束或已确认未恢复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="475" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-31" target="ge6eiEdTAFL3hpT854fV-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-31" value="&lt;div&gt;删除缓存&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="481.25" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-34" value="&lt;div&gt;保存告警历史log&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="670" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-36" value="&lt;div&gt;发布：&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;AlarmHistoryStateChangeEvent&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="770" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-39" target="ge6eiEdTAFL3hpT854fV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-39" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;发布 ：&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;AlarmEndEvent&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="580" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-42" target="ge6eiEdTAFL3hpT854fV-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-42" value="保存告警历史状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="708" y="620" width="168" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-45" target="ge6eiEdTAFL3hpT854fV-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-45" value="更新缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="711" y="730" width="162" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-47" target="ge6eiEdTAFL3hpT854fV-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-47" target="ge6eiEdTAFL3hpT854fV-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-47" value="保存告警历史log" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="711" y="850" width="162" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ge6eiEdTAFL3hpT854fV-50" value="发布：&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;AlarmStateChangeEvent&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="672.5" y="970" width="239" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
