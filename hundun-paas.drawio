@@ -306,12 +306,10 @@
         <mxCell id="XDytoGcrAN4II-qXGKHd-1" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;paas-alarm:rule-code:rule:&amp;lt;alarmCode&amp;gt; =&amp;gt; &amp;lt;alarmRuleBOStr&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="876" y="-80" width="470" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="XDytoGcrAN4II-qXGKHd-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1125.5" y="200" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-2" target="XDytoGcrAN4II-qXGKHd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-2" target="XDytoGcrAN4II-qXGKHd-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-2" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;paas-alarm:rule-id:rule-code:&amp;lt;alarmRuleId&amp;gt; =&amp;gt; &amp;lt;alarmCode&amp;gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -324,13 +322,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-5" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;paas-alarm:item-rule-code:item-rule-detail:&amp;lt;itemRuleCode&amp;gt; =&amp;gt; &amp;lt;subjectItemRuleStr&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="793.5" y="260" width="664" height="40" as="geometry" />
+          <mxGeometry x="779" y="260" width="664" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-7" target="XDytoGcrAN4II-qXGKHd-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-7" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;paas-alarm:model-code:subject-cim:item-cim:item-rule-code:&amp;lt;model_code&amp;gt;:&amp;lt;subject_cim&amp;gt;:&amp;lt;item_cim&amp;gt; =&amp;gt; &amp;lt;itemRuleCode&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="380" width="891" height="40" as="geometry" />
+          <mxGeometry x="665.5" y="380" width="891" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-9" value="缓存时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="868" y="-140" width="60" height="30" as="geometry" />
@@ -353,8 +351,14 @@
         <mxCell id="XDytoGcrAN4II-qXGKHd-20" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;paas-alarm:model-code:subject-cim:item-cim:item-rule-code:&amp;lt;ModelCode&amp;gt;:&amp;lt;subject_cim&amp;gt;:&amp;lt;item_cim&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1747.5" y="380" width="775" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-26" target="XDytoGcrAN4II-qXGKHd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-26" target="XDytoGcrAN4II-qXGKHd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-26" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;paas-alarm:rule-code:item-rule-code:&amp;lt;alarmCode&amp;gt; =&amp;gt; &amp;lt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;itemRuleCode&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="140" width="600" height="40" as="geometry" />
+          <mxGeometry x="811" y="140" width="600" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
