@@ -330,8 +330,8 @@
         <mxCell id="XDytoGcrAN4II-qXGKHd-7" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;paas-alarm:model-code:subject-cim:item-cim:item-rule-code:&amp;lt;model_code&amp;gt;:&amp;lt;subject_cim&amp;gt;:&amp;lt;item_cim&amp;gt; =&amp;gt; &amp;lt;itemRuleCode&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="665.5" y="380" width="891" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-9" value="更新或删除时添加缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="836" y="-250" width="140" height="30" as="geometry" />
+        <mxCell id="XDytoGcrAN4II-qXGKHd-9" value="打开规则时添加缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="841" y="-250" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-10" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;paas-alarm:rule-code:rule:&amp;lt;alarmCode&amp;gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1900" y="-80" width="470" height="40" as="geometry" />
