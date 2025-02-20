@@ -369,7 +369,7 @@
         <mxCell id="XDytoGcrAN4II-qXGKHd-30" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;生成 alarmCode = SimpleUUID&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="876" y="-200" width="470" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-33" value="//" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-33" value="其他情况不处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-177.5" y="475" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
