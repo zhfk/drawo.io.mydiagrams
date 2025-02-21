@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="告警" id="GtPHsBBUX7Yxwo9CKAsK">
-    <mxGraphModel dx="3163" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3247" dy="1989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -385,7 +385,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-38" value="&lt;div&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;报警规则删除&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1570" y="555" width="130" height="40" as="geometry" />
+          <mxGeometry x="-1570" y="600" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-41" target="XDytoGcrAN4II-qXGKHd-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-41" value="&lt;div&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;报警规则启用或禁用&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1570" y="675" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-44" target="XDytoGcrAN4II-qXGKHd-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-44" value="自定义告警规则新增" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1570" y="400" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-49" target="XDytoGcrAN4II-qXGKHd-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-49" value="告警规则编辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1570" y="495" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
