@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="告警" id="GtPHsBBUX7Yxwo9CKAsK">
-    <mxGraphModel dx="5527" dy="2077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5023" dy="1871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,8 +106,8 @@
         <mxCell id="ge6eiEdTAFL3hpT854fV-28" value="&lt;div&gt;保存告警历史状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1760" y="1872.5" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ge6eiEdTAFL3hpT854fV-30" value="自动结束或已确认未恢复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1930" y="1865" width="160" height="30" as="geometry" />
+        <mxCell id="ge6eiEdTAFL3hpT854fV-30" value="已确认未恢复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1900" y="1865" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ge6eiEdTAFL3hpT854fV-31" target="ge6eiEdTAFL3hpT854fV-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
