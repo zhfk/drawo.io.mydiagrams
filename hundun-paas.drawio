@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="告警" id="GtPHsBBUX7Yxwo9CKAsK">
-    <mxGraphModel dx="5101" dy="2092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4264" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -433,8 +433,11 @@
         <mxCell id="XDytoGcrAN4II-qXGKHd-54" value="batchInsertRule2Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1980" y="355" width="145" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-57" target="XDytoGcrAN4II-qXGKHd-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-57" value="batchRemoveFromRedis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1240" y="345" width="160" height="55" as="geometry" />
+          <mxGeometry x="-880" y="345" width="160" height="55" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-60" target="XDytoGcrAN4II-qXGKHd-62">
           <mxGeometry relative="1" as="geometry" />
@@ -508,6 +511,9 @@
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-81" value="&lt;font face=&quot;Georgia&quot;&gt;SADD paas-alarm:model-code:subject-cim:item-cim:item-rule-code:&amp;lt;modelCode&amp;gt;:&amp;lt;subjectCim&amp;gt;:&amp;lt;itemCim&amp;gt; =&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-2780" y="908.75" width="800" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-84" value="&lt;font face=&quot;Georgia&quot;&gt;获取alarmCode: GET&amp;nbsp;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font&gt;paas-alarm:rule-id:rule-code:&amp;lt;alarmRuleId&amp;gt; =&amp;gt; alarmCode&lt;/font&gt;&lt;/span&gt;&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="460" width="500" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
