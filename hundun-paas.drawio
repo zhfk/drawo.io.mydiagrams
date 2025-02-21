@@ -149,8 +149,8 @@
         <mxCell id="ge6eiEdTAFL3hpT854fV-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ge6eiEdTAFL3hpT854fV-45" target="ge6eiEdTAFL3hpT854fV-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ge6eiEdTAFL3hpT854fV-45" value="更新缓存" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1887" y="2120" width="162" height="40" as="geometry" />
+        <mxCell id="ge6eiEdTAFL3hpT854fV-45" value="更新缓存: paas-alarm:rule-code:history-str:&amp;lt;alarmCode&amp;gt; =&amp;gt; AlarmHistoryBO(jsonStr)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-2068.25" y="2120" width="524.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ge6eiEdTAFL3hpT854fV-47" target="ge6eiEdTAFL3hpT854fV-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
