@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="告警" id="GtPHsBBUX7Yxwo9CKAsK">
-    <mxGraphModel dx="4074" dy="1989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4871" dy="2399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
         <mxCell id="ge6eiEdTAFL3hpT854fV-3" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;b style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font&gt;ItemValCustomer&lt;/font&gt;&lt;/b&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="70" y="170" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ge6eiEdTAFL3hpT854fV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ge6eiEdTAFL3hpT854fV-6" target="ge6eiEdTAFL3hpT854fV-3" edge="1">
+        <mxCell id="ge6eiEdTAFL3hpT854fV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ge6eiEdTAFL3hpT854fV-6" target="ge6eiEdTAFL3hpT854fV-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-10" value="从redis中获取点位告警规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ge6eiEdTAFL3hpT854fV-9" vertex="1" connectable="0">
@@ -35,7 +35,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-6" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;b style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font&gt;redis&lt;/font&gt;&lt;/b&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="490" y="170" width="150" height="50" as="geometry" />
+          <mxGeometry x="-450" y="170" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ge6eiEdTAFL3hpT854fV-11" target="ge6eiEdTAFL3hpT854fV-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -376,37 +376,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-35" value="基础告警规则新增" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1880" y="-60" width="130" height="40" as="geometry" />
+          <mxGeometry x="-2256" y="-60" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-36" target="XDytoGcrAN4II-qXGKHd-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-36" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;batchUpdateRule2Redis&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1460.0000000000002" y="85" width="180" height="40" as="geometry" />
+          <mxGeometry x="-1836.0000000000002" y="85" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-38" target="XDytoGcrAN4II-qXGKHd-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-38" value="&lt;div&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;报警规则删除&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1880" y="155" width="130" height="40" as="geometry" />
+          <mxGeometry x="-2256" y="155" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-41" target="XDytoGcrAN4II-qXGKHd-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-41" value="&lt;div&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;报警规则启用或禁用&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1880" y="220" width="130" height="40" as="geometry" />
+          <mxGeometry x="-2256" y="220" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-44" target="XDytoGcrAN4II-qXGKHd-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-44" value="自定义告警规则新增" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1880" y="10" width="130" height="40" as="geometry" />
+          <mxGeometry x="-2256" y="10" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-49" target="XDytoGcrAN4II-qXGKHd-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-49" value="告警规则编辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1880" y="85" width="130" height="40" as="geometry" />
+          <mxGeometry x="-2256" y="85" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-52" target="XDytoGcrAN4II-qXGKHd-54">
           <mxGeometry relative="1" as="geometry" />
@@ -425,25 +425,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-52" value="state?&lt;div&gt;规则启用或禁用&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1420" y="332.5" width="100" height="80" as="geometry" />
+          <mxGeometry x="-1796" y="332.5" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-54" target="XDytoGcrAN4II-qXGKHd-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-54" value="batchInsertRule2Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1980" y="355" width="145" height="35" as="geometry" />
+          <mxGeometry x="-2356" y="355" width="145" height="35" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-57" target="XDytoGcrAN4II-qXGKHd-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-57" value="batchRemoveFromRedis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-880" y="345" width="160" height="55" as="geometry" />
+          <mxGeometry x="-1256" y="345" width="160" height="55" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-60" target="XDytoGcrAN4II-qXGKHd-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-60" value="生成=&amp;gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;alarmCode(fastUUID)&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2076.25" y="620" width="192.5" height="30" as="geometry" />
+          <mxGeometry x="-2452.25" y="620" width="192.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-62" target="XDytoGcrAN4II-qXGKHd-64">
           <mxGeometry relative="1" as="geometry" />
@@ -452,34 +452,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-62" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;insertAlarm2Redis(缓存规则)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2084" y="730" width="206.25" height="30" as="geometry" />
+          <mxGeometry x="-2460" y="730" width="206.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-64" target="XDytoGcrAN4II-qXGKHd-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-64" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SET paas-alarm:rule-id:rule-code:&amp;lt;alarmRuleId&amp;gt; =&amp;gt; alarmCode&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1797.75" y="730" width="437.75" height="30" as="geometry" />
+          <mxGeometry x="-2173.75" y="730" width="437.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-66" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SET paas-alarm:rule-code:rule:&amp;lt;alarmCode&amp;gt; =&amp;gt; alarmRuleBO(jsonStr)&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1812.75" y="805" width="467.75" height="30" as="geometry" />
+          <mxGeometry x="-2188.75" y="805" width="467.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-68" target="XDytoGcrAN4II-qXGKHd-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-68" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;对每个配置条件进行缓存&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2083.5" y="870" width="207" height="30" as="geometry" />
+          <mxGeometry x="-2459.5" y="870" width="207" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-70" target="XDytoGcrAN4II-qXGKHd-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-70" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SADD paas-alarm:rule-code:item-rule-code:&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&amp;lt;alarmCode&amp;gt; =&amp;gt; Set&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1825" y="870" width="570" height="30" as="geometry" />
+          <mxGeometry x="-2201" y="870" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-72" target="XDytoGcrAN4II-qXGKHd-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-72" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SET paas-alarm:item-rule-code:item-rule-detail:&lt;/span&gt;&lt;/font&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt; =&amp;gt; alarmRuleItemBO(jsonStr)&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1897.5" y="950" width="715" height="30" as="geometry" />
+          <mxGeometry x="-2273.5" y="950" width="715" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-74" target="XDytoGcrAN4II-qXGKHd-76">
           <mxGeometry relative="1" as="geometry" />
@@ -498,40 +498,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-74" value="基础规则?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1580" y="1035" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1956" y="1035" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-76" target="XDytoGcrAN4II-qXGKHd-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-76" value="&lt;font face=&quot;Georgia&quot;&gt;SADD paas-alarm:model-code:item-cim:item-rule-code-set:&amp;lt;modelCode&amp;gt;:&amp;lt;itemCim&amp;gt; =&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1885" y="1190" width="690" height="32.5" as="geometry" />
+          <mxGeometry x="-2261" y="1190" width="690" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-79" value="&lt;font face=&quot;Georgia&quot;&gt;SADD paas-alarm:model-code:item-cim:item-rule-code:subject-cim-set:&amp;lt;modelCode&amp;gt;:&amp;lt;itemCim&amp;gt;:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt; =&amp;gt; Set&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font&gt;SubjectCim&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1960" y="1278.75" width="840" height="32.5" as="geometry" />
+          <mxGeometry x="-2336" y="1278.75" width="840" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-81" value="&lt;font face=&quot;Georgia&quot;&gt;SADD paas-alarm:model-code:subject-cim:item-cim:item-rule-code:&amp;lt;modelCode&amp;gt;:&amp;lt;subjectCim&amp;gt;:&amp;lt;itemCim&amp;gt; =&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1440" y="1058.75" width="800" height="32.5" as="geometry" />
+          <mxGeometry x="-1776" y="1058.75" width="800" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-84" target="XDytoGcrAN4II-qXGKHd-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-84" value="&lt;font face=&quot;Georgia&quot;&gt;获取alarmCode: GET&amp;nbsp;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font&gt;paas-alarm:rule-id:rule-code:&amp;lt;alarmRuleId&amp;gt; =&amp;gt; alarmCode&lt;/font&gt;&lt;/span&gt;&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-1050" y="460" width="500" height="30" as="geometry" />
+          <mxGeometry x="-1426" y="460" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="XDytoGcrAN4II-qXGKHd-66">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-900" y="575" as="sourcePoint" />
+            <mxPoint x="-1276" y="575" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1230" y="576" />
-              <mxPoint x="-1230" y="820" />
+              <mxPoint x="-1606" y="576" />
+              <mxPoint x="-1606" y="820" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-86" target="XDytoGcrAN4II-qXGKHd-64">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1230" y="575" />
-              <mxPoint x="-1230" y="745" />
+              <mxPoint x="-1606" y="575" />
+              <mxPoint x="-1606" y="745" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -539,27 +539,91 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-86" value="&lt;font face=&quot;Georgia&quot;&gt;删除 alarmRule 相关 key&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-895" y="560" width="190" height="30" as="geometry" />
+          <mxGeometry x="-1271" y="560" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-90" target="XDytoGcrAN4II-qXGKHd-70">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1040" y="685" />
-              <mxPoint x="-1040" y="885" />
+              <mxPoint x="-1516" y="685" />
+              <mxPoint x="-1516" y="885" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-90" target="XDytoGcrAN4II-qXGKHd-72">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1516" y="685" />
+              <mxPoint x="-1516" y="965" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-90" target="XDytoGcrAN4II-qXGKHd-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-90" value="&lt;font face=&quot;Georgia&quot;&gt;删除alarmRuleItem 相关 key&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-895" y="670" width="190" height="30" as="geometry" />
+          <mxGeometry x="-1271" y="670" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-94" target="XDytoGcrAN4II-qXGKHd-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-101" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XDytoGcrAN4II-qXGKHd-98">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-94" target="XDytoGcrAN4II-qXGKHd-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-106" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XDytoGcrAN4II-qXGKHd-103">
+          <mxGeometry x="-0.1704" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-94" target="XDytoGcrAN4II-qXGKHd-108">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-94" value="基础规则?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-840" y="755" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1216" y="755" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-97" target="XDytoGcrAN4II-qXGKHd-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1446" y="795" />
+              <mxPoint x="-1446" y="1206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-97" target="XDytoGcrAN4II-qXGKHd-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1446" y="795" />
+              <mxPoint x="-1446" y="1295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-97" value="删除基础规则缓存key" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1391" y="765" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-102" target="XDytoGcrAN4II-qXGKHd-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-102" value="删除自定义规则key" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1236" y="895" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-108" target="XDytoGcrAN4II-qXGKHd-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-108" value="删除其他Key" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-705" y="765" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-110" target="XDytoGcrAN4II-qXGKHd-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-110" value="&lt;font face=&quot;Georgia&quot;&gt;告警持续时间：paas-alarm:item-rule-code:item-rule-aware-time:&amp;lt;alarmCode_itemRuleId&amp;gt;*&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="900" width="550" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-112" value="告警规则item的告警状态：paas-alarm:alarm-rule:item-rule-code:status:&amp;lt;alarmCode_itemRuleId&amp;gt;*" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="995" width="590" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
