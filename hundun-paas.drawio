@@ -81,7 +81,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-24" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;tryStopAlarm&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2010" y="1871.25" width="120" height="47.5" as="geometry" />
+          <mxGeometry x="-2040" y="1871.25" width="120" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ge6eiEdTAFL3hpT854fV-26" target="ge6eiEdTAFL3hpT854fV-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
