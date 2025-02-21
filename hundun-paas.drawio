@@ -104,7 +104,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-28" value="&lt;div&gt;设置告警状态为正常&lt;/div&gt;&lt;div&gt;保存告警历史状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1578" y="1872.5" width="120" height="45" as="geometry" />
+          <mxGeometry x="-1590" y="1872.5" width="148" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-30" value="已确认未恢复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1718" y="1865" width="100" height="30" as="geometry" />
