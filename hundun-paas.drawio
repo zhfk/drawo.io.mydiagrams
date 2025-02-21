@@ -576,7 +576,10 @@
         <mxCell id="XDytoGcrAN4II-qXGKHd-119" value="DEL paas-alarm:rule-code:history-str:&amp;lt;alarmCode&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1021.13" y="1965" width="298.5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-121" value="删除告警状态：DEL&amp;nbsp; paas-alarm:alarm-rule:item-rule-code:status::&amp;lt;alarmCode&amp;gt;*" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-121" target="XDytoGcrAN4II-qXGKHd-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-121" value="删除告警状态：DEL&amp;nbsp; paas-alarm:alarm-rule:item-rule-code:status:&amp;lt;alarmCode&amp;gt;*" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1116" y="2060" width="488.25" height="45" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-123" target="XDytoGcrAN4II-qXGKHd-124">
@@ -587,6 +590,9 @@
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-124" value="SET paas-alarm:rule-code:history-str:&amp;lt;alarmCode&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3371.25" y="2763.75" width="300.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-127" value="删除告警wareTime：DEL&amp;nbsp; paas-alarm:item-rule-code:item-rule-aware-time:&amp;lt;alarmItemCode&amp;gt;*" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1154.8799999999999" y="2155" width="566" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
