@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="告警" id="GtPHsBBUX7Yxwo9CKAsK">
-    <mxGraphModel dx="3350" dy="1616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3505" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -408,8 +408,30 @@
         <mxCell id="XDytoGcrAN4II-qXGKHd-49" value="告警规则编辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2134" y="245" width="130" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-52" target="XDytoGcrAN4II-qXGKHd-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-56" value="启用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XDytoGcrAN4II-qXGKHd-55">
+          <mxGeometry x="-0.0525" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-52" target="XDytoGcrAN4II-qXGKHd-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-59" value="禁用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XDytoGcrAN4II-qXGKHd-58">
+          <mxGeometry x="-0.0736" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-52" value="state?&lt;div&gt;规则启用或禁用&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1600" y="225" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-54" value="batchInsertRule2Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1625" y="355" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-57" value="batchRemoveFromRedis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1430" y="237.5" width="160" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
