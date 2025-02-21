@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="告警" id="GtPHsBBUX7Yxwo9CKAsK">
-    <mxGraphModel dx="5527" dy="2077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6829" dy="2272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -265,6 +265,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ge6eiEdTAFL3hpT854fV-87" target="ge6eiEdTAFL3hpT854fV-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-87" target="XDytoGcrAN4II-qXGKHd-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-87" value="&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt; line-height: 50%;&quot;&gt;&lt;font style=&quot;line-height: 50%;&quot; face=&quot;Verdana&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); line-height: 50%;&quot;&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;将告警历史&lt;/span&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;ID&lt;/span&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;存到&lt;/span&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;redis&lt;/span&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;，后续这个告警&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 9.8pt; line-height: 50%;&quot;&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;line-height: 50%;&quot; face=&quot;Verdana&quot;&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;设备点位上的点位信息可以直接关联上历史&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -573,6 +576,15 @@
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-121" value="paas-alarm:alarm-rule:item-rule-code:status::&amp;lt;alarmCode&amp;gt;*" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1198.25" y="2065" width="418.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-123" target="XDytoGcrAN4II-qXGKHd-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-123" value="&lt;div&gt;paas-alarm:rule-code:history-id:&amp;lt;alarmCode&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3380" y="2670" width="318" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-124" value="paas-alarm:rule-code:history-str:&amp;lt;alarmCode&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3360.5" y="2763.75" width="279" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
