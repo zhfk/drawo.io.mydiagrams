@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
   <diagram name="告警" id="GtPHsBBUX7Yxwo9CKAsK">
-    <mxGraphModel dx="5104" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5527" dy="2077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,6 +110,9 @@
           <mxGeometry x="-1718" y="1865" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ge6eiEdTAFL3hpT854fV-31" target="ge6eiEdTAFL3hpT854fV-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-31" target="XDytoGcrAN4II-qXGKHd-117">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-31" value="&lt;div&gt;删除缓存&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -555,6 +558,21 @@
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-112" value="告警规则item的告警状态：paas-alarm:alarm-rule:item-rule-code:status:&amp;lt;alarmCode_itemRuleId&amp;gt;*" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-940" y="995" width="590" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-117" target="XDytoGcrAN4II-qXGKHd-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-117" value="&lt;div&gt;paas-alarm:rule-code:history-id:&amp;lt;alarmCode&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1148" y="1871.25" width="318" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-119" target="XDytoGcrAN4II-qXGKHd-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-119" value="paas-alarm:rule-code:history-str:&amp;lt;alarmCode&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1128.5" y="1965" width="279" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-121" value="paas-alarm:alarm-rule:item-rule-code:status::&amp;lt;alarmCode&amp;gt;*" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1198.25" y="2065" width="418.5" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
