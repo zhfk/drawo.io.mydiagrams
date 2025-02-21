@@ -600,6 +600,9 @@
         <mxCell id="XDytoGcrAN4II-qXGKHd-130" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;告警触发&amp;amp;结束逻辑&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2096" y="1450" width="710" height="270" as="geometry" />
         </mxCell>
+        <mxCell id="XDytoGcrAN4II-qXGKHd-131" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;点位告警校验规则&lt;/h1&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;1、得到 valCompareResult =&amp;gt; 点位当前值是否满足告警配置的条件&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;2、若是瞬时点位 =&amp;gt; 比较上次点位状态触发告警状态(初始值为false)，得到result &lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;3、若是持续点位 =&amp;gt; 比较上次触发到当前的持续事件是否满足持续时间要求，得到result&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;4、result = true 则保持，false 则生成告警&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2430" y="1675" width="650" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
