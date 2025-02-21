@@ -403,14 +403,6 @@
         <mxCell id="XDytoGcrAN4II-qXGKHd-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-70" target="XDytoGcrAN4II-qXGKHd-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-70" target="ge6eiEdTAFL3hpT854fV-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-2059" y="1120" />
-              <mxPoint x="-3155" y="1120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-70" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SADD paas-alarm:rule-code:item-rule-code:&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&amp;lt;alarmCode&amp;gt; =&amp;gt; Set&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2201" y="870" width="570" height="30" as="geometry" />
         </mxCell>
@@ -440,9 +432,6 @@
           <mxGeometry x="-1956" y="1035" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-76" target="XDytoGcrAN4II-qXGKHd-79">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-76" target="ge6eiEdTAFL3hpT854fV-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XDytoGcrAN4II-qXGKHd-76" value="&lt;font face=&quot;Georgia&quot;&gt;SADD paas-alarm:model-code:item-cim:item-rule-code-set:&amp;lt;modelCode&amp;gt;:&amp;lt;itemCim&amp;gt; =&amp;gt; Set&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
