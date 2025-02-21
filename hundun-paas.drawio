@@ -103,7 +103,7 @@
         <mxCell id="ge6eiEdTAFL3hpT854fV-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ge6eiEdTAFL3hpT854fV-34" target="ge6eiEdTAFL3hpT854fV-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ge6eiEdTAFL3hpT854fV-28" value="&lt;div&gt;保存告警历史状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ge6eiEdTAFL3hpT854fV-28" value="&lt;div&gt;设置告警状态为正常&lt;/div&gt;&lt;div&gt;保存告警历史状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1760" y="1872.5" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-30" value="已确认未恢复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
