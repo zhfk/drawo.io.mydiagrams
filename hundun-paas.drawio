@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="告警" id="GtPHsBBUX7Yxwo9CKAsK">
-    <mxGraphModel dx="5330" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5775" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,7 +59,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-14" target="XDytoGcrAN4II-qXGKHd-33">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ge6eiEdTAFL3hpT854fV-14" target="XDytoGcrAN4II-qXGKHd-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-14" value="根据规则校验是否生成告警？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -112,7 +112,7 @@
         <mxCell id="ge6eiEdTAFL3hpT854fV-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ge6eiEdTAFL3hpT854fV-31" target="ge6eiEdTAFL3hpT854fV-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-31" target="XDytoGcrAN4II-qXGKHd-117">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ge6eiEdTAFL3hpT854fV-31" target="XDytoGcrAN4II-qXGKHd-117" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1110.88" y="1895.63" as="sourcePoint" />
           </mxGeometry>
@@ -269,7 +269,7 @@
         <mxCell id="ge6eiEdTAFL3hpT854fV-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ge6eiEdTAFL3hpT854fV-87" target="ge6eiEdTAFL3hpT854fV-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ge6eiEdTAFL3hpT854fV-87" target="XDytoGcrAN4II-qXGKHd-123">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ge6eiEdTAFL3hpT854fV-87" target="XDytoGcrAN4II-qXGKHd-123" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ge6eiEdTAFL3hpT854fV-87" value="&lt;div style=&quot;line-height: 50%;&quot;&gt;&lt;pre style=&quot;font-size: 9.8pt; line-height: 50%;&quot;&gt;&lt;font style=&quot;line-height: 50%;&quot; face=&quot;Verdana&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); line-height: 50%;&quot;&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;将告警历史&lt;/span&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;ID&lt;/span&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;存到&lt;/span&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;redis&lt;/span&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;，后续这个告警&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 9.8pt; line-height: 50%;&quot;&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;&lt;font style=&quot;line-height: 50%;&quot; face=&quot;Verdana&quot;&gt;&lt;span style=&quot;line-height: 50%;&quot;&gt;设备点位上的点位信息可以直接关联上历史&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -308,156 +308,156 @@
         <mxCell id="ge6eiEdTAFL3hpT854fV-104" value="用户" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" parent="1" vertex="1">
           <mxGeometry x="-1423" y="2420" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-33" value="其他情况不处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-33" value="其他情况不处理" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2957.5" y="1865" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-35" target="XDytoGcrAN4II-qXGKHd-36">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-35" target="XDytoGcrAN4II-qXGKHd-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-35" value="基础告警规则新增" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-35" value="基础告警规则新增" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3096" y="-210" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-36" target="XDytoGcrAN4II-qXGKHd-52">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-36" target="XDytoGcrAN4II-qXGKHd-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-36" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;batchUpdateRule2Redis&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-36" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;batchUpdateRule2Redis&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2676" y="-65" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-38" target="XDytoGcrAN4II-qXGKHd-36">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-38" target="XDytoGcrAN4II-qXGKHd-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-38" value="&lt;div&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;报警规则删除&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-38" value="&lt;div&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;报警规则删除&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3096" y="5" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-41" target="XDytoGcrAN4II-qXGKHd-36">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-41" target="XDytoGcrAN4II-qXGKHd-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-41" value="&lt;div&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;报警规则启用或禁用&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-41" value="&lt;div&gt;&lt;pre style=&quot;font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;报警规则启用或禁用&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3096" y="70" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-44" target="XDytoGcrAN4II-qXGKHd-36">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-44" target="XDytoGcrAN4II-qXGKHd-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-44" value="自定义告警规则新增" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-44" value="自定义告警规则新增" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3096" y="-140" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-49" target="XDytoGcrAN4II-qXGKHd-36">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-49" target="XDytoGcrAN4II-qXGKHd-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-49" value="告警规则编辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-49" value="告警规则编辑" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3096" y="-65" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-52" target="XDytoGcrAN4II-qXGKHd-54">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-52" target="XDytoGcrAN4II-qXGKHd-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-56" value="启用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XDytoGcrAN4II-qXGKHd-55">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-56" value="启用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XDytoGcrAN4II-qXGKHd-55" vertex="1" connectable="0">
           <mxGeometry x="-0.0525" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-52" target="XDytoGcrAN4II-qXGKHd-57">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-52" target="XDytoGcrAN4II-qXGKHd-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-59" value="禁用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XDytoGcrAN4II-qXGKHd-58">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-59" value="禁用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XDytoGcrAN4II-qXGKHd-58" vertex="1" connectable="0">
           <mxGeometry x="-0.0736" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-52" value="state?&lt;div&gt;规则启用或禁用&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-52" value="state?&lt;div&gt;规则启用或禁用&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2636" y="182.5" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-54" target="XDytoGcrAN4II-qXGKHd-60">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-54" target="XDytoGcrAN4II-qXGKHd-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-54" value="batchInsertRule2Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-54" value="batchInsertRule2Redis" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3269.38" y="205" width="145" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-57" target="XDytoGcrAN4II-qXGKHd-84">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-57" target="XDytoGcrAN4II-qXGKHd-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-57" value="batchRemoveFromRedis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-57" value="batchRemoveFromRedis" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-2096" y="195" width="160" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-60" target="XDytoGcrAN4II-qXGKHd-62">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-60" target="XDytoGcrAN4II-qXGKHd-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-60" value="生成=&amp;gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;alarmCode(fastUUID)&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-60" value="生成=&amp;gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;alarmCode(fastUUID)&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3292.25" y="470" width="192.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-62" target="XDytoGcrAN4II-qXGKHd-64">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-62" target="XDytoGcrAN4II-qXGKHd-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-62" target="XDytoGcrAN4II-qXGKHd-68">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-62" target="XDytoGcrAN4II-qXGKHd-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-62" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;insertAlarm2Redis(缓存规则)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-62" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;insertAlarm2Redis(缓存规则)&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3300" y="580" width="206.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-64" target="XDytoGcrAN4II-qXGKHd-66">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-64" target="XDytoGcrAN4II-qXGKHd-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-64" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SET paas-alarm:rule-id:rule-code:&amp;lt;alarmRuleId&amp;gt; =&amp;gt; alarmCode&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-64" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SET paas-alarm:rule-id:rule-code:&amp;lt;alarmRuleId&amp;gt; =&amp;gt; alarmCode&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3013.75" y="580" width="437.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-66" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SET paas-alarm:rule-code:rule:&amp;lt;alarmCode&amp;gt; =&amp;gt; alarmRuleBO(jsonStr)&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-66" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SET paas-alarm:rule-code:rule:&amp;lt;alarmCode&amp;gt; =&amp;gt; alarmRuleBO(jsonStr)&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3028.75" y="655" width="467.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-68" target="XDytoGcrAN4II-qXGKHd-70">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-68" target="XDytoGcrAN4II-qXGKHd-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-68" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;对每个配置条件进行缓存&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-68" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font&gt;对每个配置条件进行缓存&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3299.5" y="720" width="207" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-70" target="XDytoGcrAN4II-qXGKHd-72">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-70" target="XDytoGcrAN4II-qXGKHd-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-70" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SADD paas-alarm:rule-code:item-rule-code:&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&amp;lt;alarmCode&amp;gt; =&amp;gt; Set&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-70" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SADD paas-alarm:rule-code:item-rule-code:&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&amp;lt;alarmCode&amp;gt; =&amp;gt; Set&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3041" y="720" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-72" target="XDytoGcrAN4II-qXGKHd-74">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-72" target="XDytoGcrAN4II-qXGKHd-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-72" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SET paas-alarm:item-rule-code:item-rule-detail:&lt;/span&gt;&lt;/font&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt; =&amp;gt; alarmRuleItemBO(jsonStr)&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-72" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;SET paas-alarm:item-rule-code:item-rule-detail:&lt;/span&gt;&lt;/font&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt; =&amp;gt; alarmRuleItemBO(jsonStr)&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3113.5" y="800" width="715" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-74" target="XDytoGcrAN4II-qXGKHd-76">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-74" target="XDytoGcrAN4II-qXGKHd-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-78" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XDytoGcrAN4II-qXGKHd-77">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-78" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XDytoGcrAN4II-qXGKHd-77" vertex="1" connectable="0">
           <mxGeometry x="-0.1429" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-74" target="XDytoGcrAN4II-qXGKHd-81">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-74" target="XDytoGcrAN4II-qXGKHd-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-83" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XDytoGcrAN4II-qXGKHd-82">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-83" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XDytoGcrAN4II-qXGKHd-82" vertex="1" connectable="0">
           <mxGeometry x="-0.0303" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-74" value="基础规则?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-74" value="基础规则?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-2796" y="885" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-76" target="XDytoGcrAN4II-qXGKHd-79">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-76" target="XDytoGcrAN4II-qXGKHd-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-76" value="&lt;font face=&quot;Georgia&quot;&gt;SADD paas-alarm:model-code:item-cim:item-rule-code-set:&amp;lt;modelCode&amp;gt;:&amp;lt;itemCim&amp;gt; =&amp;gt; Set&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-76" value="&lt;font face=&quot;Georgia&quot;&gt;SADD paas-alarm:model-code:item-cim:item-rule-code-set:&amp;lt;modelCode&amp;gt;:&amp;lt;itemCim&amp;gt; =&amp;gt; Set&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-3101" y="1040" width="690" height="32.5" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-79" value="&lt;font face=&quot;Georgia&quot;&gt;SADD paas-alarm:model-code:item-cim:item-rule-code:subject-cim-set:&amp;lt;modelCode&amp;gt;:&amp;lt;itemCim&amp;gt;:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt; =&amp;gt; Set&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font&gt;SubjectCim&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-79" value="&lt;font face=&quot;Georgia&quot;&gt;SADD paas-alarm:model-code:item-cim:item-rule-code:subject-cim-set:&amp;lt;modelCode&amp;gt;:&amp;lt;itemCim&amp;gt;:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt; =&amp;gt; Set&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font&gt;SubjectCim&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-3176" y="1128.75" width="840" height="32.5" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-81" value="&lt;font face=&quot;Georgia&quot;&gt;SADD paas-alarm:model-code:subject-cim:item-cim:item-rule-code:&amp;lt;modelCode&amp;gt;:&amp;lt;subjectCim&amp;gt;:&amp;lt;itemCim&amp;gt; =&amp;gt; Set&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-81" value="&lt;font face=&quot;Georgia&quot;&gt;SADD paas-alarm:model-code:subject-cim:item-cim:item-rule-code:&amp;lt;modelCode&amp;gt;:&amp;lt;subjectCim&amp;gt;:&amp;lt;itemCim&amp;gt; =&amp;gt; Set&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;alarmCode_alarmItemRuleId&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-2616" y="908.75" width="826" height="32.5" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-84" target="XDytoGcrAN4II-qXGKHd-86">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-84" target="XDytoGcrAN4II-qXGKHd-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-84" value="&lt;font face=&quot;Georgia&quot;&gt;获取alarmCode: GET&amp;nbsp;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font&gt;paas-alarm:rule-id:rule-code:&amp;lt;alarmRuleId&amp;gt; =&amp;gt; alarmCode&lt;/font&gt;&lt;/span&gt;&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-84" value="&lt;font face=&quot;Georgia&quot;&gt;获取alarmCode: GET&amp;nbsp;&lt;span style=&quot;font-size: 9.8pt;&quot;&gt;&lt;font&gt;paas-alarm:rule-id:rule-code:&amp;lt;alarmRuleId&amp;gt; =&amp;gt; alarmCode&lt;/font&gt;&lt;/span&gt;&amp;nbsp;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-2266" y="310" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="XDytoGcrAN4II-qXGKHd-66">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="XDytoGcrAN4II-qXGKHd-66" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2116" y="425" as="sourcePoint" />
             <Array as="points">
@@ -466,7 +466,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-86" target="XDytoGcrAN4II-qXGKHd-64">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-86" target="XDytoGcrAN4II-qXGKHd-64" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-2446" y="425" />
@@ -474,13 +474,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-86" target="XDytoGcrAN4II-qXGKHd-90">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-86" target="XDytoGcrAN4II-qXGKHd-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-86" value="&lt;font face=&quot;Georgia&quot;&gt;删除 alarmRule 相关 key&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-86" value="&lt;font face=&quot;Georgia&quot;&gt;删除 alarmRule 相关 key&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-2111" y="410" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-90" target="XDytoGcrAN4II-qXGKHd-70">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-90" target="XDytoGcrAN4II-qXGKHd-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-2356" y="535" />
@@ -488,7 +488,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-90" target="XDytoGcrAN4II-qXGKHd-72">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-90" target="XDytoGcrAN4II-qXGKHd-72" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-2356" y="535" />
@@ -496,35 +496,35 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-90" target="XDytoGcrAN4II-qXGKHd-94">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-90" target="XDytoGcrAN4II-qXGKHd-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-90" value="&lt;font face=&quot;Georgia&quot;&gt;删除alarmRuleItem 相关 key&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-90" value="&lt;font face=&quot;Georgia&quot;&gt;删除alarmRuleItem 相关 key&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-2111" y="520" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-94" target="XDytoGcrAN4II-qXGKHd-97">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-94" target="XDytoGcrAN4II-qXGKHd-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-101" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XDytoGcrAN4II-qXGKHd-98">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-101" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XDytoGcrAN4II-qXGKHd-98" vertex="1" connectable="0">
           <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-94" target="XDytoGcrAN4II-qXGKHd-102">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-94" target="XDytoGcrAN4II-qXGKHd-102" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-106" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XDytoGcrAN4II-qXGKHd-103">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-106" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XDytoGcrAN4II-qXGKHd-103" vertex="1" connectable="0">
           <mxGeometry x="-0.1704" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-94" target="XDytoGcrAN4II-qXGKHd-108">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-94" target="XDytoGcrAN4II-qXGKHd-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-94" value="基础规则?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-94" value="基础规则?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-2056" y="605" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-97" target="XDytoGcrAN4II-qXGKHd-76">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-97" target="XDytoGcrAN4II-qXGKHd-76" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-2286" y="645" />
@@ -532,7 +532,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-97" target="XDytoGcrAN4II-qXGKHd-79">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-97" target="XDytoGcrAN4II-qXGKHd-79" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-2286" y="645" />
@@ -540,67 +540,67 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-97" value="删除基础规则缓存key" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-97" value="删除基础规则缓存key" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-2231" y="615" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-102" target="XDytoGcrAN4II-qXGKHd-81">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-102" target="XDytoGcrAN4II-qXGKHd-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-102" value="删除自定义规则key" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-102" value="删除自定义规则key" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-2076" y="745" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-108" target="XDytoGcrAN4II-qXGKHd-110">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-108" target="XDytoGcrAN4II-qXGKHd-110" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-108" value="删除其他Key" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-108" value="删除其他Key" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1545" y="615" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-110" target="XDytoGcrAN4II-qXGKHd-112">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-110" target="XDytoGcrAN4II-qXGKHd-112" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-110" value="&lt;font face=&quot;Georgia&quot;&gt;告警持续时间：paas-alarm:item-rule-code:item-rule-aware-time:&amp;lt;alarmCode_itemRuleId&amp;gt;*&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-110" value="&lt;font face=&quot;Georgia&quot;&gt;告警持续时间：paas-alarm:item-rule-code:item-rule-aware-time:&amp;lt;alarmCode_itemRuleId&amp;gt;*&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1760" y="750" width="550" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-112" value="告警规则item的告警状态：paas-alarm:alarm-rule:item-rule-code:status:&amp;lt;alarmCode_itemRuleId&amp;gt;*" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-112" value="告警规则item的告警状态：paas-alarm:alarm-rule:item-rule-code:status:&amp;lt;alarmCode_itemRuleId&amp;gt;*" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1780" y="845" width="590" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-117" target="XDytoGcrAN4II-qXGKHd-119">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-117" target="XDytoGcrAN4II-qXGKHd-119" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-117" value="&lt;div&gt;DEL paas-alarm:rule-code:history-id:&amp;lt;alarmCode&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-117" value="&lt;div&gt;DEL paas-alarm:rule-code:history-id:&amp;lt;alarmCode&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1030.88" y="1871.25" width="318" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-119" target="XDytoGcrAN4II-qXGKHd-121">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-119" target="XDytoGcrAN4II-qXGKHd-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-119" value="DEL paas-alarm:rule-code:history-str:&amp;lt;alarmCode&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-119" value="DEL paas-alarm:rule-code:history-str:&amp;lt;alarmCode&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1021.13" y="1965" width="298.5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-121" target="XDytoGcrAN4II-qXGKHd-127">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XDytoGcrAN4II-qXGKHd-121" target="XDytoGcrAN4II-qXGKHd-127" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-121" value="删除告警状态：DEL&amp;nbsp; paas-alarm:alarm-rule:item-rule-code:status:&amp;lt;alarmCode&amp;gt;*" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-121" value="删除告警状态：DEL&amp;nbsp; paas-alarm:alarm-rule:item-rule-code:status:&amp;lt;alarmCode&amp;gt;*" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1116" y="2060" width="488.25" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XDytoGcrAN4II-qXGKHd-123" target="XDytoGcrAN4II-qXGKHd-124">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="XDytoGcrAN4II-qXGKHd-123" target="XDytoGcrAN4II-qXGKHd-124" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-123" value="&lt;div&gt;SET paas-alarm:rule-code:history-id:&amp;lt;alarmCode&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-123" value="&lt;div&gt;SET paas-alarm:rule-code:history-id:&amp;lt;alarmCode&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3380" y="2670" width="318" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-124" value="SET paas-alarm:rule-code:history-str:&amp;lt;alarmCode&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3371.25" y="2763.75" width="300.5" height="45" as="geometry" />
+        <mxCell id="XDytoGcrAN4II-qXGKHd-124" value="SET paas-alarm:rule-code:history-str:&amp;lt;alarmCode&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-3371.25" y="2763.75" width="298.5" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-127" value="删除告警wareTime：DEL&amp;nbsp; paas-alarm:item-rule-code:item-rule-aware-time:&amp;lt;alarmItemCode&amp;gt;*" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-127" value="删除告警wareTime：DEL&amp;nbsp; paas-alarm:item-rule-code:item-rule-aware-time:&amp;lt;alarmItemCode&amp;gt;*" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1154.8799999999999" y="2155" width="566" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-129" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;告警规则缓存更新逻辑&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-129" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;告警规则缓存更新逻辑&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-2396" y="-130" width="450" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-130" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;告警触发&amp;amp;结束逻辑&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-130" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;告警触发&amp;amp;结束逻辑&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-2096" y="1450" width="710" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="XDytoGcrAN4II-qXGKHd-131" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;点位告警校验规则&lt;/h1&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;1、得到 valCompareResult =&amp;gt; 点位当前值是否满足告警配置的条件&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;2、若是瞬时点位 =&amp;gt; 比较上次点位状态触发告警状态(初始值为false)，得到result &lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;3、若是持续点位 =&amp;gt; 比较上次触发到当前的持续事件是否满足持续时间要求，得到result&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;4、result = true 则保持，false 则生成告警&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;5、再根据 valCompareResult 判断是结束告警还是开始告警&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XDytoGcrAN4II-qXGKHd-131" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;点位告警校验规则&lt;/h1&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;1、得到 valCompareResult =&amp;gt; 点位当前值是否满足告警配置的条件&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;font&gt;2、若是瞬时点位 =&amp;gt; 比较上次点位状态触发告警状态(初始值为false)，得到result &lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;3、若是持续点位 =&amp;gt; 比较上次触发到当前的持续事件是否满足持续时间要求，得到result&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;4、result = true 则保持，false 则生成告警&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;5、再根据 valCompareResult 判断是结束告警还是开始告警&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-2430" y="1675" width="650" height="160" as="geometry" />
         </mxCell>
       </root>
